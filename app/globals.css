@@ -15,7 +15,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+.app
+{
+  background-color:rgba(11, 7, 22, 1);
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -59,4 +62,29 @@ body {
   font-family: "Nokora", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+/* home page css */
+.homecenter
+{
+
+width: 200px;
+height: 262px;
+background: #592E83;
+filter: blur(100px);
+
+}
+
+.homecenter p
+{
+  color: white;
+  font-size: 20px;
+  font-family: 'Nokora', serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.reachusbuttonhomepage {
+  font-family: Nourd-SemiBold;
+  background: linear-gradient(to left, rgba(89, 46, 131, 1), rgba(153, 132, 212, 1));
 }

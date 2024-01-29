@@ -11,3 +11,8 @@ export interface navbarbuttonprops {
   imageaddress:StaticImageData;
   SocialLink:string;
 }
+// for the reach us button on home page 
+export interface homebuttonprops {
+  title: string;
+  onClick: () => void;
+}

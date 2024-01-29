@@ -9,7 +9,7 @@ import Github from "./github.png";
 export default function Navbar() {
   return (
     <>
-      <div className="flex content-between bg-black w-screen items-center justify-center">
+      <div className="flex content-between  w-screen items-center justify-center">
         <div className="flex items-center p-4  justify-center">
           {/* The icon of the site */}
           <Image alt="nyesyslogo" src={Nuesyslogo} width={100} height={100} />
