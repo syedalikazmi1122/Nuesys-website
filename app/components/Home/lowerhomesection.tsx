@@ -57,10 +57,8 @@ export default function lowerhomesection() {
               width={50}
             />
             <div className="absolute top-8 left-8">
-              <h1 className="text-white text-2xl font-bold border border-purple-900">
-                About Future
-              </h1>
-              <p className="mt-4 p-2 text-white text-sm border border-purple-900">
+              <h1 className="text-white text-2xl font-bold ">About Future</h1>
+              <p className="mt-4 p-2 text-white text-sm ">
                 This is where we will add small description about what is the
                 blog about or is talking about. I am adding this paragraph to
                 demonstrate how this will look after adding the context and
@@ -77,10 +75,8 @@ export default function lowerhomesection() {
               width={50}
             />
             <div className="absolute top-8 left-8">
-              <h1 className="text-white text-2xl font-bold border border-purple-900">
-                New on Nuesys
-              </h1>
-              <p className="mt-4 p-2 text-white text-sm border border-purple-900">
+              <h1 className="text-white text-2xl font-bold ">New on Nuesys</h1>
+              <p className="mt-4 p-2 text-white text-sm ">
                 This is where we will add small description about what is the
                 blog about or is talking about. I am adding this paragraph to
                 demonstrate how this will look after adding the context and
@@ -97,10 +93,10 @@ export default function lowerhomesection() {
               width={50}
             />
             <div className="absolute top-8 left-8">
-              <h1 className="text-white text-2xl font-bold border border-purple-900">
+              <h1 className="text-white text-2xl font-bold ">
                 Quote of the day
               </h1>
-              <p className="mt-4 p-2 text-white text-sm border border-purple-900">
+              <p className="mt-4 p-2 text-white text-sm ">
                 This is where we will add small description about what is the
                 blog about or is talking about. I am adding this paragraph to
                 demonstrate how this will look after adding the context and

@@ -14,7 +14,9 @@ export default function home() {
             Transforming Lines of Code into Innovative Solutions, Pioneering the
             Future.
           </p>
-          <HomeButton title="Reach us Now " />
+          <HomeButton title="Reach us Now " onClick={function (): void {
+            throw new Error("Function not implemented.");
+          } } />
         </div>
       </div>
       {/* the about */}
