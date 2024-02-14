@@ -1,18 +1,13 @@
 import Image from "next/image";
-import Nuesyslogo from "./nuesyslogo.png";
 import NavLink from "./navbarlink";
 import Navbarbutton from "./navbarbutton";
-import Facebook from "./facebook.png";
-import Linkedln from "./LinkedIn.png";
-import Instagram from "./instagram.png";
-import Github from "./github.png";
 export default function Navbar() {
   return (
     <>
       <div className="flex content-between  w-screen items-center justify-center">
         <div className="flex items-center p-4  justify-center">
           {/* The icon of the site */}
-          <Image alt="nyesyslogo" src={Nuesyslogo} width={100} height={100} />
+          <Image alt="nyesyslogo" src={"/navbarpics/nuesyslogo"} width={100} height={100} />
           <div className=" ml-48 flex space-x-5">
             {/* the links for pages */}
             <NavLink title="Home" link="./home" />
@@ -25,22 +20,22 @@ export default function Navbar() {
           <div className="flex ml-48 items-center space-x-3">
             <Navbarbutton
               title="Github"
-              imageaddress={"app/components/navbar/GitHub.png"}
+              imageaddress={"/navbarpics/GitHub.png"}
               SocialLink="aa"
             />
             <Navbarbutton
               title="instagram"
-              imageaddress={"app/components/navbar/Instagram.png"}
+              imageaddress={"/navbarpics/Instagram.png"}
               SocialLink="aa"
             />
             <Navbarbutton
               title="facebook"
-              imageaddress={"app/components/navbar/Facebook.png"}
+              imageaddress={"/navbarpics/Facebook.png"}
               SocialLink="aa"
             />
             <Navbarbutton
               title="linkedln"
-              imageaddress={"app/components/navbar/LinkedIn.png"}
+              imageaddress={"/navbarpics/LinkedIn.png"}
               SocialLink="aa"
             />
           </div>
