@@ -25,22 +25,22 @@ export default function Navbar() {
           <div className="flex ml-48 items-center space-x-3">
             <Navbarbutton
               title="Github"
-              imageaddress={Github}
+              imageaddress={"app/components/navbar/GitHub.png"}
               SocialLink="aa"
             />
             <Navbarbutton
               title="instagram"
-              imageaddress={Instagram}
+              imageaddress={"app/components/navbar/Instagram.png"}
               SocialLink="aa"
             />
             <Navbarbutton
               title="facebook"
-              imageaddress={Facebook}
+              imageaddress={"app/components/navbar/Facebook.png"}
               SocialLink="aa"
             />
             <Navbarbutton
               title="linkedln"
-              imageaddress={Linkedln}
+              imageaddress={"app/components/navbar/LinkedIn.png"}
               SocialLink="aa"
             />
           </div>

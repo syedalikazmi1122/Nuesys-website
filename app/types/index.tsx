@@ -8,7 +8,7 @@ export interface navbarlistprops {
 // for the gtihub icons used
 export interface navbarbuttonprops {
   title:string;
-  imageaddress:StaticImageData;
+  imageaddress:string;
   SocialLink:string;
 }
 // for the reach us button on home page 
