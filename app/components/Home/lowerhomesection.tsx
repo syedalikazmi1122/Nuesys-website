@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Bilal from "../Home/bilal.png";
-import Vector from "../Home/Vector.png";
 export default function lowerhomesection() {
   return (
     <>
@@ -23,21 +21,21 @@ export default function lowerhomesection() {
 
         <div className="flex space-x-20 h-40 mt-32 justify-center w-screen">
           <Image
-            src="./bilal.png"
+            src={"/app/components/Home/bilal.png"}
             className=" "
             alt="bilal"
             height={200}
             width={200}
           />
           <Image
-            src="./bilal.png"
+            src={"/app/components/Home/bilal.png"}
             className=" "
             alt="bilal"
             height={200}
             width={200}
           />
           <Image
-            src="./bilal.png"
+            src={"/app/components/Home/bilal.png"}
             className=" "
             alt="bilal"
             height={200}
@@ -49,7 +47,7 @@ export default function lowerhomesection() {
           {/* the box */}
           <div className=" gradientlowerhomesectionblogbox relative w-96 h-56 bg-gradient-to-r from-transparent  rounded-lg ">
             <Image
-              src="./Vector.png"
+              src={"/app/components/Home/bilal.png"}
               alt="aa"
               height={50}
               className="ml-5 mt-6"
@@ -67,7 +65,7 @@ export default function lowerhomesection() {
           </div>
           <div className=" gradientlowerhomesectionblogbox relative w-96 h-56 bg-gradient-to-r from-transparent  rounded-lg ">
             <Image
-              src="./Vector.png"
+              src={"/app/components/Home/bilal.png"}
               alt="aa"
               height={50}
               className="ml-5 mt-6"
@@ -85,7 +83,7 @@ export default function lowerhomesection() {
           </div>
           <div className=" gradientlowerhomesectionblogbox relative w-96 h-56 bg-gradient-to-r from-transparent  rounded-lg ">
             <Image
-              src="./Vector.png"
+              src={"/app/components/Home/bilal.png"}
               alt="aa"
               height={50}
               className="ml-5 mt-6"
