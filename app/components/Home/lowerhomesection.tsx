@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Bilal from "./bilal.png";
-import vector from "./vector.png";
-import { url } from "inspector";
+import Bilal from "../Home/bilal.png";
+import Vector from "../Home/Vector.png";
 export default function lowerhomesection() {
   return (
     <>
@@ -24,21 +23,21 @@ export default function lowerhomesection() {
 
         <div className="flex space-x-20 h-40 mt-32 justify-center w-screen">
           <Image
-            src={Bilal}
+            src="./bilal.png"
             className=" "
             alt="bilal"
             height={200}
             width={200}
           />
           <Image
-            src={Bilal}
+            src="./bilal.png"
             className=" "
             alt="bilal"
             height={200}
             width={200}
           />
           <Image
-            src={Bilal}
+            src="./bilal.png"
             className=" "
             alt="bilal"
             height={200}
@@ -50,7 +49,7 @@ export default function lowerhomesection() {
           {/* the box */}
           <div className=" gradientlowerhomesectionblogbox relative w-96 h-56 bg-gradient-to-r from-transparent  rounded-lg ">
             <Image
-              src={vector}
+              src="./Vector.png"
               alt="aa"
               height={50}
               className="ml-5 mt-6"
@@ -68,7 +67,7 @@ export default function lowerhomesection() {
           </div>
           <div className=" gradientlowerhomesectionblogbox relative w-96 h-56 bg-gradient-to-r from-transparent  rounded-lg ">
             <Image
-              src={vector}
+              src="./Vector.png"
               alt="aa"
               height={50}
               className="ml-5 mt-6"
@@ -86,7 +85,7 @@ export default function lowerhomesection() {
           </div>
           <div className=" gradientlowerhomesectionblogbox relative w-96 h-56 bg-gradient-to-r from-transparent  rounded-lg ">
             <Image
-              src={vector}
+              src="./Vector.png"
               alt="aa"
               height={50}
               className="ml-5 mt-6"

@@ -88,11 +88,8 @@ body {
 }
 
 .homelowersection {
-  /* Rectangle 3 */
-  /* Rectangle 3 */
-
   position: absolute;
-  width: 1920px;
+
   /* height: 201px; */
   left: 0px;
 
@@ -100,14 +97,7 @@ body {
   backdrop-filter: blur(2px);
   /* Note: backdrop-filter has minimal browser support */
 }
-/* Note: backdrop-filter has minimal browser support */
-/* cv 1 */
 
-/* box-sizing: border-box; */
-
-/* background: url(cv.jpg);
-border: 4px solid #9984D4;
-border-radius: 20px; */
 .lowerhomesectionblogssection {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     #230c33;
