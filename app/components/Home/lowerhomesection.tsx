@@ -16,9 +16,9 @@ export default function lowerhomesection() {
           <p className="text-sm text-wrap w-3/4 opacity-80 text-white">
             Welcome to Nuesys, a powerhouse of three change enthusiaists on a
             mission to turn your ideas into digital brilliance. With a blend of
-            creativity and expertise, we're here to craft solutions that exceed
-            expectations. Meet the team that's passionate about coding and
-            dedicated to bringing your vision to life.
+            creativity and expertise, we&apos;re here to craft solutions that
+            exceed expectations. Meet the team that&apos;s passionate about
+            coding and dedicated to bringing your vision to life.
           </p>
         </div>
 
